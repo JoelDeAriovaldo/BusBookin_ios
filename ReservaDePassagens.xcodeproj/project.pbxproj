@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5848F8892CB18B5300254231 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848F8882CB18B5300254231 /* AppDelegate.swift */; };
+		5848F88B2CB18B5300254231 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848F88A2CB18B5300254231 /* ViewController.swift */; };
+		5848F88E2CB18B5300254231 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5848F88C2CB18B5300254231 /* Main.storyboard */; };
+		5848F8902CB18B6600254231 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5848F88F2CB18B6600254231 /* Assets.xcassets */; };
+		5848F8932CB18B6600254231 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5848F8912CB18B6600254231 /* LaunchScreen.storyboard */; };
+		5848F89C2CB18BEA00254231 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848F89B2CB18BEA00254231 /* User.swift */; };
+		5848F89E2CB18C1800254231 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848F89D2CB18C1800254231 /* Route.swift */; };
+		5848F8A02CB18C3500254231 /* Seat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848F89F2CB18C3500254231 /* Seat.swift */; };
+		5848F8A22CB18C6A00254231 /* Passenger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848F8A12CB18C6A00254231 /* Passenger.swift */; };
+		5848F8A42CB18C8700254231 /* Booking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848F8A32CB18C8700254231 /* Booking.swift */; };
+		5848F8A82CB18D1C00254231 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848F8A72CB18D1C00254231 /* LoginView.swift */; };
+		5848F8AA2CB18D5000254231 /* SigbUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848F8A92CB18D5000254231 /* SigbUpView.swift */; };
+		5848F8AD2CB18DB000254231 /* SearchRoutesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848F8AC2CB18DB000254231 /* SearchRoutesView.swift */; };
+		5848F8AF2CB18DEF00254231 /* RoutesDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848F8AE2CB18DEF00254231 /* RoutesDetailsView.swift */; };
+		5848F8B22CB18E4400254231 /* SelectSeatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848F8B12CB18E4400254231 /* SelectSeatsView.swift */; };
+		5848F8B52CB18E8F00254231 /* AddPassengerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848F8B42CB18E8F00254231 /* AddPassengerView.swift */; };
+		5848F8B82CB18EEB00254231 /* BookingHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848F8B72CB18EEB00254231 /* BookingHistoryView.swift */; };
+		5848F8BA2CB18F1300254231 /* BookingDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848F8B92CB18F1300254231 /* BookingDetailsView.swift */; };
+		5848F8BD2CB18F4F00254231 /* PaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848F8BC2CB18F4F00254231 /* PaymentView.swift */; };
+		5848F8C02CB18FDF00254231 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848F8BF2CB18FDF00254231 /* AuthenticationViewModel.swift */; };
+		5848F8C22CB1900100254231 /* RoutesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848F8C12CB1900100254231 /* RoutesViewModel.swift */; };
+		5848F8C42CB1902E00254231 /* SeatsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848F8C32CB1902E00254231 /* SeatsViewModel.swift */; };
+		5848F8C62CB1904900254231 /* PassengersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848F8C52CB1904900254231 /* PassengersViewModel.swift */; };
+		5848F8C82CB1906800254231 /* BookingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848F8C72CB1906800254231 /* BookingsViewModel.swift */; };
+		5848F8CA2CB1909100254231 /* PaymentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848F8C92CB1909100254231 /* PaymentViewModel.swift */; };
+		5848F8CD2CB190EE00254231 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848F8CC2CB190EE00254231 /* APIService.swift */; };
+		5848F8CF2CB1910A00254231 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848F8CE2CB1910A00254231 /* AuthService.swift */; };
+		5848F8D12CB1912E00254231 /* BookingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848F8D02CB1912E00254231 /* BookingService.swift */; };
+		5848F8D32CB1914900254231 /* PaymentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848F8D22CB1914900254231 /* PaymentService.swift */; };
+		5848F8D62CB191C600254231 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848F8D52CB191C600254231 /* Extensions.swift */; };
+		5848F8D82CB191EE00254231 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848F8D72CB191EE00254231 /* Constants.swift */; };
+		5848F8DA2CB1920B00254231 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848F8D92CB1920B00254231 /* Helpers.swift */; };
+		5848F8DD2CB1924F00254231 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848F8DC2CB1924F00254231 /* Colors.swift */; };
+		5848F8DF2CB1926A00254231 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848F8DE2CB1926A00254231 /* Fonts.swift */; };
+		5848F8E12CB1928900254231 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848F8E02CB1928900254231 /* Strings.swift */; };
+		5848F8E42CB192D700254231 /* AuthenticationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848F8E32CB192D700254231 /* AuthenticationTests.swift */; };
+		5848F8E62CB192F000254231 /* RoutesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848F8E52CB192F000254231 /* RoutesTests.swift */; };
+		5848F8E82CB1931500254231 /* SeatsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848F8E72CB1931500254231 /* SeatsTests.swift */; };
+		5848F8EA2CB1933500254231 /* PassengersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848F8E92CB1933500254231 /* PassengersTests.swift */; };
+		5848F8EC2CB1934E00254231 /* BookingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848F8EB2CB1934E00254231 /* BookingsTests.swift */; };
+		5848F8EE2CB1937200254231 /* PaymentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848F8ED2CB1937200254231 /* PaymentTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5848F8852CB18B5300254231 /* ReservaDePassagens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReservaDePassagens.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5848F8882CB18B5300254231 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5848F88A2CB18B5300254231 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5848F88D2CB18B5300254231 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5848F88F2CB18B6600254231 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5848F8922CB18B6600254231 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5848F8942CB18B6600254231 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5848F89B2CB18BEA00254231 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5848F89D2CB18C1800254231 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		5848F89F2CB18C3500254231 /* Seat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seat.swift; sourceTree = "<group>"; };
+		5848F8A12CB18C6A00254231 /* Passenger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Passenger.swift; sourceTree = "<group>"; };
+		5848F8A32CB18C8700254231 /* Booking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Booking.swift; sourceTree = "<group>"; };
+		5848F8A72CB18D1C00254231 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		5848F8A92CB18D5000254231 /* SigbUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigbUpView.swift; sourceTree = "<group>"; };
+		5848F8AC2CB18DB000254231 /* SearchRoutesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRoutesView.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		5848F8AE2CB18DEF00254231 /* RoutesDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutesDetailsView.swift; sourceTree = "<group>"; };
+		5848F8B12CB18E4400254231 /* SelectSeatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSeatsView.swift; sourceTree = "<group>"; };
+		5848F8B42CB18E8F00254231 /* AddPassengerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPassengerView.swift; sourceTree = "<group>"; };
+		5848F8B72CB18EEB00254231 /* BookingHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingHistoryView.swift; sourceTree = "<group>"; };
+		5848F8B92CB18F1300254231 /* BookingDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingDetailsView.swift; sourceTree = "<group>"; };
+		5848F8BC2CB18F4F00254231 /* PaymentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentView.swift; sourceTree = "<group>"; };
+		5848F8BF2CB18FDF00254231 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		5848F8C12CB1900100254231 /* RoutesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutesViewModel.swift; sourceTree = "<group>"; };
+		5848F8C32CB1902E00254231 /* SeatsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatsViewModel.swift; sourceTree = "<group>"; };
+		5848F8C52CB1904900254231 /* PassengersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassengersViewModel.swift; sourceTree = "<group>"; };
+		5848F8C72CB1906800254231 /* BookingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingsViewModel.swift; sourceTree = "<group>"; };
+		5848F8C92CB1909100254231 /* PaymentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewModel.swift; sourceTree = "<group>"; };
+		5848F8CC2CB190EE00254231 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		5848F8CE2CB1910A00254231 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		5848F8D02CB1912E00254231 /* BookingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingService.swift; sourceTree = "<group>"; };
+		5848F8D22CB1914900254231 /* PaymentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentService.swift; sourceTree = "<group>"; };
+		5848F8D52CB191C600254231 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		5848F8D72CB191EE00254231 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5848F8D92CB1920B00254231 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		5848F8DC2CB1924F00254231 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		5848F8DE2CB1926A00254231 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		5848F8E02CB1928900254231 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		5848F8E32CB192D700254231 /* AuthenticationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationTests.swift; sourceTree = "<group>"; };
+		5848F8E52CB192F000254231 /* RoutesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutesTests.swift; sourceTree = "<group>"; };
+		5848F8E72CB1931500254231 /* SeatsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatsTests.swift; sourceTree = "<group>"; };
+		5848F8E92CB1933500254231 /* PassengersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassengersTests.swift; sourceTree = "<group>"; };
+		5848F8EB2CB1934E00254231 /* BookingsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingsTests.swift; sourceTree = "<group>"; };
+		5848F8ED2CB1937200254231 /* PaymentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5848F8822CB18B5300254231 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5848F87C2CB18B5300254231 = {
+			isa = PBXGroup;
+			children = (
+				5848F8872CB18B5300254231 /* ReservaDePassagens */,
+				5848F8862CB18B5300254231 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5848F8862CB18B5300254231 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5848F8852CB18B5300254231 /* ReservaDePassagens.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5848F8872CB18B5300254231 /* ReservaDePassagens */ = {
+			isa = PBXGroup;
+			children = (
+				5848F8E22CB192B400254231 /* Tests */,
+				5848F8DB2CB1922A00254231 /* Resources */,
+				5848F8D42CB1916B00254231 /* Utilities */,
+				5848F8CB2CB190C800254231 /* Services */,
+				5848F8BE2CB18FBA00254231 /* ViewModels */,
+				5848F8A52CB18CAC00254231 /* Views */,
+				5848F89A2CB18B9C00254231 /* Models */,
+				5848F8882CB18B5300254231 /* AppDelegate.swift */,
+				5848F88A2CB18B5300254231 /* ViewController.swift */,
+				5848F88C2CB18B5300254231 /* Main.storyboard */,
+				5848F88F2CB18B6600254231 /* Assets.xcassets */,
+				5848F8912CB18B6600254231 /* LaunchScreen.storyboard */,
+				5848F8942CB18B6600254231 /* Info.plist */,
+			);
+			path = ReservaDePassagens;
+			sourceTree = "<group>";
+		};
+		5848F89A2CB18B9C00254231 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5848F89B2CB18BEA00254231 /* User.swift */,
+				5848F89D2CB18C1800254231 /* Route.swift */,
+				5848F89F2CB18C3500254231 /* Seat.swift */,
+				5848F8A12CB18C6A00254231 /* Passenger.swift */,
+				5848F8A32CB18C8700254231 /* Booking.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5848F8A52CB18CAC00254231 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5848F8BB2CB18F3100254231 /* Payments */,
+				5848F8B62CB18ED000254231 /* Bookings */,
+				5848F8B32CB18E5900254231 /* Passengers */,
+				5848F8B02CB18DFF00254231 /* Seats */,
+				5848F8AB2CB18D6900254231 /* Routes */,
+				5848F8A62CB18CD100254231 /* Authentication */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5848F8A62CB18CD100254231 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				5848F8A72CB18D1C00254231 /* LoginView.swift */,
+				5848F8A92CB18D5000254231 /* SigbUpView.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		5848F8AB2CB18D6900254231 /* Routes */ = {
+			isa = PBXGroup;
+			children = (
+				5848F8AC2CB18DB000254231 /* SearchRoutesView.swift */,
+				5848F8AE2CB18DEF00254231 /* RoutesDetailsView.swift */,
+			);
+			path = Routes;
+			sourceTree = "<group>";
+		};
+		5848F8B02CB18DFF00254231 /* Seats */ = {
+			isa = PBXGroup;
+			children = (
+				5848F8B12CB18E4400254231 /* SelectSeatsView.swift */,
+			);
+			path = Seats;
+			sourceTree = "<group>";
+		};
+		5848F8B32CB18E5900254231 /* Passengers */ = {
+			isa = PBXGroup;
+			children = (
+				5848F8B42CB18E8F00254231 /* AddPassengerView.swift */,
+			);
+			path = Passengers;
+			sourceTree = "<group>";
+		};
+		5848F8B62CB18ED000254231 /* Bookings */ = {
+			isa = PBXGroup;
+			children = (
+				5848F8B72CB18EEB00254231 /* BookingHistoryView.swift */,
+				5848F8B92CB18F1300254231 /* BookingDetailsView.swift */,
+			);
+			path = Bookings;
+			sourceTree = "<group>";
+		};
+		5848F8BB2CB18F3100254231 /* Payments */ = {
+			isa = PBXGroup;
+			children = (
+				5848F8BC2CB18F4F00254231 /* PaymentView.swift */,
+			);
+			name = Payments;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		5848F8BE2CB18FBA00254231 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				5848F8BF2CB18FDF00254231 /* AuthenticationViewModel.swift */,
+				5848F8C12CB1900100254231 /* RoutesViewModel.swift */,
+				5848F8C32CB1902E00254231 /* SeatsViewModel.swift */,
+				5848F8C52CB1904900254231 /* PassengersViewModel.swift */,
+				5848F8C72CB1906800254231 /* BookingsViewModel.swift */,
+				5848F8C92CB1909100254231 /* PaymentViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5848F8CB2CB190C800254231 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5848F8CC2CB190EE00254231 /* APIService.swift */,
+				5848F8CE2CB1910A00254231 /* AuthService.swift */,
+				5848F8D02CB1912E00254231 /* BookingService.swift */,
+				5848F8D22CB1914900254231 /* PaymentService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		5848F8D42CB1916B00254231 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				5848F8D52CB191C600254231 /* Extensions.swift */,
+				5848F8D72CB191EE00254231 /* Constants.swift */,
+				5848F8D92CB1920B00254231 /* Helpers.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		5848F8DB2CB1922A00254231 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5848F8DC2CB1924F00254231 /* Colors.swift */,
+				5848F8DE2CB1926A00254231 /* Fonts.swift */,
+				5848F8E02CB1928900254231 /* Strings.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5848F8E22CB192B400254231 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5848F8E32CB192D700254231 /* AuthenticationTests.swift */,
+				5848F8E52CB192F000254231 /* RoutesTests.swift */,
+				5848F8E72CB1931500254231 /* SeatsTests.swift */,
+				5848F8E92CB1933500254231 /* PassengersTests.swift */,
+				5848F8EB2CB1934E00254231 /* BookingsTests.swift */,
+				5848F8ED2CB1937200254231 /* PaymentTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5848F8842CB18B5300254231 /* ReservaDePassagens */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5848F8972CB18B6600254231 /* Build configuration list for PBXNativeTarget "ReservaDePassagens" */;
+			buildPhases = (
+				5848F8812CB18B5300254231 /* Sources */,
+				5848F8822CB18B5300254231 /* Frameworks */,
+				5848F8832CB18B5300254231 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReservaDePassagens;
+			productName = ReservaDePassagens;
+			productReference = 5848F8852CB18B5300254231 /* ReservaDePassagens.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5848F87D2CB18B5300254231 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Joel De Ariovaldo";
+				TargetAttributes = {
+					5848F8842CB18B5300254231 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 5848F8802CB18B5300254231 /* Build configuration list for PBXProject "ReservaDePassagens" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5848F87C2CB18B5300254231;
+			productRefGroup = 5848F8862CB18B5300254231 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5848F8842CB18B5300254231 /* ReservaDePassagens */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5848F8832CB18B5300254231 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5848F8932CB18B6600254231 /* LaunchScreen.storyboard in Resources */,
+				5848F8902CB18B6600254231 /* Assets.xcassets in Resources */,
+				5848F88E2CB18B5300254231 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5848F8812CB18B5300254231 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5848F88B2CB18B5300254231 /* ViewController.swift in Sources */,
+				5848F8DD2CB1924F00254231 /* Colors.swift in Sources */,
+				5848F8D62CB191C600254231 /* Extensions.swift in Sources */,
+				5848F8B82CB18EEB00254231 /* BookingHistoryView.swift in Sources */,
+				5848F8C22CB1900100254231 /* RoutesViewModel.swift in Sources */,
+				5848F8C02CB18FDF00254231 /* AuthenticationViewModel.swift in Sources */,
+				5848F89E2CB18C1800254231 /* Route.swift in Sources */,
+				5848F8A42CB18C8700254231 /* Booking.swift in Sources */,
+				5848F8A22CB18C6A00254231 /* Passenger.swift in Sources */,
+				5848F8DA2CB1920B00254231 /* Helpers.swift in Sources */,
+				5848F8BD2CB18F4F00254231 /* PaymentView.swift in Sources */,
+				5848F8892CB18B5300254231 /* AppDelegate.swift in Sources */,
+				5848F8A02CB18C3500254231 /* Seat.swift in Sources */,
+				5848F8D82CB191EE00254231 /* Constants.swift in Sources */,
+				5848F8EA2CB1933500254231 /* PassengersTests.swift in Sources */,
+				5848F8A82CB18D1C00254231 /* LoginView.swift in Sources */,
+				5848F8E62CB192F000254231 /* RoutesTests.swift in Sources */,
+				5848F8B22CB18E4400254231 /* SelectSeatsView.swift in Sources */,
+				5848F8E42CB192D700254231 /* AuthenticationTests.swift in Sources */,
+				5848F8BA2CB18F1300254231 /* BookingDetailsView.swift in Sources */,
+				5848F8AA2CB18D5000254231 /* SigbUpView.swift in Sources */,
+				5848F8E12CB1928900254231 /* Strings.swift in Sources */,
+				5848F8AD2CB18DB000254231 /* SearchRoutesView.swift in Sources */,
+				5848F8CF2CB1910A00254231 /* AuthService.swift in Sources */,
+				5848F8EC2CB1934E00254231 /* BookingsTests.swift in Sources */,
+				5848F8D12CB1912E00254231 /* BookingService.swift in Sources */,
+				5848F8C62CB1904900254231 /* PassengersViewModel.swift in Sources */,
+				5848F8AF2CB18DEF00254231 /* RoutesDetailsView.swift in Sources */,
+				5848F8EE2CB1937200254231 /* PaymentTests.swift in Sources */,
+				5848F89C2CB18BEA00254231 /* User.swift in Sources */,
+				5848F8DF2CB1926A00254231 /* Fonts.swift in Sources */,
+				5848F8CD2CB190EE00254231 /* APIService.swift in Sources */,
+				5848F8E82CB1931500254231 /* SeatsTests.swift in Sources */,
+				5848F8C42CB1902E00254231 /* SeatsViewModel.swift in Sources */,
+				5848F8D32CB1914900254231 /* PaymentService.swift in Sources */,
+				5848F8B52CB18E8F00254231 /* AddPassengerView.swift in Sources */,
+				5848F8C82CB1906800254231 /* BookingsViewModel.swift in Sources */,
+				5848F8CA2CB1909100254231 /* PaymentViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5848F88C2CB18B5300254231 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5848F88D2CB18B5300254231 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5848F8912CB18B6600254231 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5848F8922CB18B6600254231 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5848F8952CB18B6600254231 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5848F8962CB18B6600254231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5848F8982CB18B6600254231 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ReservaDePassagens/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joeldeariovaldo.ReservaDePassagens;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5848F8992CB18B6600254231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ReservaDePassagens/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joeldeariovaldo.ReservaDePassagens;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5848F8802CB18B5300254231 /* Build configuration list for PBXProject "ReservaDePassagens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5848F8952CB18B6600254231 /* Debug */,
+				5848F8962CB18B6600254231 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5848F8972CB18B6600254231 /* Build configuration list for PBXNativeTarget "ReservaDePassagens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5848F8982CB18B6600254231 /* Debug */,
+				5848F8992CB18B6600254231 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5848F87D2CB18B5300254231 /* Project object */;
+}
